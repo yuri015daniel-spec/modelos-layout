@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Imagens</title>
+    <link rel="stylesheet" href="grids.css">
+    <style>
+        .border{
+            border: 1px solid #000000;
+        }
+
+        .coluna-imagem2{
+            height: 100px;
+        }
+
+        .coluna-imagem3{
+            padding: 20px;
+        }
+
+        .borda-imagem{
+            border: 1px solid #2807e5;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        
+        <div class="row">
+            <div class="col-12 border">
+              <a href="index.html"> Voltar</a>   
+            <h1>Imagens</h1> </div>
+        </div>
+
+        <div class="row gap 1">
+            <div class="col-5 border">
+                <img src="imagem.jpg" class="img-responsive" alt="">
+            </div>
+
+            <div class="col-7 border">Descrição da imagem</div>
+        </div>
+
+        <div class="row gap-1">
+            <div class="col-4 coluna-imagem2 border">
+                <img src="imagem.jpg" class="img-fill" alt="">
+            </div>
+            <div class="col-8">
+                Imagem com a classe para ocupar 100% do espaço 
+            </div>
+        </div>
+
+        <div class="row gap 1">
+            <div class="col-5 border coluna-imagem3 borda-imagem ">
+                <img src="imagem.jpg" class="img-responsive" alt="">
+            </div>
+               <div class="col-7 border">Descrição da imagem</div>
+        </div>
+
+
+     </div>
+</body>
+</html>
